@@ -1,0 +1,7 @@
+@import "../base/all";
+
+.table-heading {
+  font-family: map-get($setting-fonts, primary);
+  font-size: 17px;
+  color: $blue;
+}

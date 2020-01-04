@@ -1,0 +1,33 @@
+@import "../base/all";
+
+@keyframes refreshing {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(-360deg);
+  }
+}
+
+.refresh-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 2.25rem;
+  height: 2.25rem;
+
+  border: 2px solid $white;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.refresh-button.refreshing {
+  animation-name: refreshing;
+  animation-duration: 1s;
+}
+
+.refresh-button__refresh-icon {
+  width: 1.25rem;
+  height: 1.25rem;
+}

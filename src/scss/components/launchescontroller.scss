@@ -1,0 +1,26 @@
+@import "../base/all";
+
+$website-launches-controller-border: 1px solid rgba(255, 255, 255, 0.66);
+
+.website-launches-controller {
+  padding: 20px;
+
+  background: rgba(255, 255, 255, 0.07);
+  border-top: $website-launches-controller-border;
+  border-left: $website-launches-controller-border;
+  border-right: $website-launches-controller-border;
+  box-shadow: 0 2px 106px 0 $black;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+
+.website-launches-controller__content {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  align-items: center;
+}
+
+.website-launches-controller-content__filters {
+  display: flex;
+  justify-content: flex-end;
+}

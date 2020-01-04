@@ -1,0 +1,14 @@
+@import "../base/all";
+
+.website-heading {
+  padding-top: 2rem;
+  padding-bottom: 2.5rem;
+}
+
+.website-heading__title {
+  font-family: map-get($setting-fonts, primary);
+  font-size: 64px;
+  color: #ffffff;
+  text-align: center;
+  text-shadow: 0 2px 4px #000000;
+}
